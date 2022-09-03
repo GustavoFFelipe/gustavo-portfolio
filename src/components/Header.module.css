@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.header > img{
+    width: 30px;
+}
+.navLinks {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.navLinks a {
+    margin:0 2rem;
+    padding-bottom: .3rem;
+    text-decoration: none;
+    color:var(--black-text)
+}
+.navLinks a:hover {
+    color: var(--blue-text);
+    border-bottom: 2px solid var(--blue-text);
+    transition: color .1s;
+
+    
+}
+.navLinks a:last-child {
+    margin-right: 5rem;
+}
