@@ -5,7 +5,7 @@ import style from './Sidebar.module.css'
 export function Sidebar(){
     return(
         <aside>
-            <div id="line-small">
+            <div className={style.lineSmall}>
                 <img src={lineSmall} alt="" />
             </div>
             <div className={style.midia}>
