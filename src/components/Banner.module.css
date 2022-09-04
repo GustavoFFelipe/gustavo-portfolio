@@ -1,3 +1,60 @@
+article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .perfil{
-    width: 35rem;
+    width: 30rem;
+}
+
+.bannerText {
+    margin-bottom: 2rem;
+
+}
+.bannerText > h2{
+    width: 22rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 0rem;    
+}
+.bannerText > .blackText{
+    color: var(--black-text)
+}
+.bannerText > .blueText{
+    color: var(--blue-text)
+}
+
+.bannerText > .blueText:hover{
+    color: var(--black-text);
+    transition: color .5s 
+}
+.bannerText > .blackText:hover{
+    color: var(--blue-text);
+    transition: color .5s;
+}
+.buttonPopForm {
+
+    background-color: transparent;
+    margin-top: 5rem;
+
+    padding: .5rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+
+    letter-spacing: .2rem;
+    line-height: 1.6;
+
+    border: 0;
+    border-bottom: 1px solid var(--black-text)
+}
+.buttonPopForm:hover {
+    transition: filter 2s;
+    color: var(--blue-text);
+    border: 1px solid var(--blue-text);
+    box-shadow: 2px 4px var(--black-text);
+    filter: brightness(1.9);
+    cursor: pointer;
+
 }

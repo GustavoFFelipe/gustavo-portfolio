@@ -6,10 +6,10 @@ export function Banner(){
         <article>
             
             <img className={style.perfil} src={PerfilPhoto} alt="" />
-            <div>
-                <h2>Front-end</h2>
-                <h2>Interface User</h2>
-                <button> Vamos nessa!</button>
+            <div className={style.bannerText}>
+                <h2 className={style.blueText}>FRONT-END DESIGN.</h2>
+                <h2 className={style.blackText}>USER INTERFACE.</h2>
+                <button className={style.buttonPopForm} > Vamos nessa!</button>
             </div>
         </article>
     )
