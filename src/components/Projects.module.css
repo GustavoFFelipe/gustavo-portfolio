@@ -1,0 +1,9 @@
+
+
+.projectContainer{
+    background: var(--blue-text);
+    padding: 2rem 2.5rem;
+}
+.projectContainer > img{
+    width: 30rem;
+}

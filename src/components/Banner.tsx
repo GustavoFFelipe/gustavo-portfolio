@@ -3,7 +3,7 @@ import style from './Banner.module.css'
 
 export function Banner(){
     return(
-        <article>
+        <article className={style.wrapper}>
             
             <img className={style.perfil} src={PerfilPhoto} alt="" />
             <div className={style.bannerText}>

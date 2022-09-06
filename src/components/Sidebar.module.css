@@ -32,3 +32,25 @@ aside{
     bottom: -.5rem;
     left: 1.4rem;
 }
+.github:hover{
+    color: var(--blue-text);
+    transition: color.2s;
+}
+.facebook:hover{
+    color: var(--blue-text);
+    transition: color.2s;
+}
+.instagram:hover{
+    color: var(--blue-text);
+    transition: color.2s;
+}
+.linkedin:hover{
+    color: var(--blue-text);
+    transition: color.2s;
+}
+
+@media (max-width: 768px){
+    aside{
+        display: none;
+    }
+}

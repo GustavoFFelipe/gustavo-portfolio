@@ -1,14 +1,16 @@
-article {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7rem;
 }
 
 .perfil{
     width: 30rem;
+    margin-left: 10rem;
 }
 
 .bannerText {
+    margin-top: 7rem;
     margin-bottom: 2rem;
 
 }
@@ -57,4 +59,21 @@ article {
     filter: brightness(1.9);
     cursor: pointer;
 
+}
+
+@media (max-width: 768px) {
+html {
+        font-size: 87.5%;
+    }
+.wrapper{
+    grid-template-columns: 1fr;
+    
+}
+.bannerText{
+    order: 1;
+    margin-left: 2rem;;
+}
+.perfil {
+    display: none;
+}
 }
