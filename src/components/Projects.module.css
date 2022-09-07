@@ -8,7 +8,8 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    border-radius: 8px;;
+    border-radius: 8px;
+    margin-bottom: 1rem;
 }
 .projectLink{
     filter: brightness(.5);
@@ -55,5 +56,6 @@
     font-size: .8rem;
     opacity: .7;
     margin-top: 2rem;
+    border-bottom: 1px solid var(--background);
 }
 
