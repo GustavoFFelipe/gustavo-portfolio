@@ -2,6 +2,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 7rem;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    
 }
 
 .perfil{
@@ -11,7 +15,10 @@
 
 .bannerText {
     margin-top: 7rem;
-    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 
 }
 .bannerText > h2{
@@ -19,7 +26,8 @@
     font-family: 'Bebas Neue', sans-serif;
     font-size: 4rem;
     font-weight: 700;
-    letter-spacing: 0rem;    
+    letter-spacing: 0rem;  
+    text-align: start;  
 }
 .bannerText > .blackText{
     color: var(--black-text)
@@ -59,6 +67,16 @@
     filter: brightness(1.9);
     cursor: pointer;
 
+}
+
+.borderDivision{
+    width: 70rem;
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    text-align: center;
+    border-bottom: 2px solid var(--black-text);
+    border-radius: 2px;
 }
 
 @media (max-width: 768px) {

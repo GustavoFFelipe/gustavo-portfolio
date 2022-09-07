@@ -11,6 +11,8 @@ export function Banner(){
                 <h2 className={style.blackText}>USER INTERFACE.</h2>
                 <button className={style.buttonPopForm} > Vamos nessa!</button>
             </div>
+            <span className={style.borderDivision} ></span>
         </article>
+         
     )
 }

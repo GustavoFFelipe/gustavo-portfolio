@@ -1,9 +1,59 @@
 
 
 .projectContainer{
+    display:flex;
+    flex-direction: column;
     background: var(--blue-text);
-    padding: 2rem 2.5rem;
+    padding: 2rem 2rem;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;;
 }
-.projectContainer > img{
-    width: 30rem;
+.projectLink{
+    filter: brightness(.5);
+    margin-top: 1rem;
 }
+.projectLink:hover{
+    filter:brightness(1.2);
+    border-radius: 8px;
+    transform: .5s;
+    cursor: pointer;
+}
+.projectContainer > .image{
+    width: 10rem;
+    margin-top: 2rem;
+    
+}
+.dateText {
+    color: var(--background);
+    position: absolute;
+    top: 2rem;
+    left: 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    opacity: .7;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    color: var(--background);
+    font-weight: 700;
+    font-size: 1rem;
+    opacity: .7;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid var(--background)
+}
+
+.footerText{
+    position: absolute;
+    bottom: .5rem;
+    right: 1rem;
+    color: var(--background);
+    font-size: .8rem;
+    opacity: .7;
+    margin-top: 2rem;
+}
+

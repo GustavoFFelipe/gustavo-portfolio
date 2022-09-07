@@ -5,6 +5,16 @@
     align-items: center;
 }
 
+.wrapper{
+    width: 60rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+}
+
 @media (max-width: 768px){
     html {
         font-size: 87.5%;
