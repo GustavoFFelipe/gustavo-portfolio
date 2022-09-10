@@ -12,7 +12,7 @@
     left: 1rem;
 }
 .navLinks {
-    font-size: 1rem;
+    font-size: .875rem;
     font-weight: 400;
     line-height: 1.6;
     letter-spacing: .2rem;
@@ -35,5 +35,5 @@
     
 }
 .navLinks a:last-child {
-    margin-right: 5rem;
+    margin-right: 1rem;
 }

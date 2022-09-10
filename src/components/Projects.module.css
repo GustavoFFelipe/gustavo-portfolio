@@ -1,6 +1,7 @@
 
 
 .projectContainer{
+    height: 25rem;
     display:flex;
     flex-direction: column;
     background: var(--blue-text);
@@ -12,17 +13,17 @@
     margin-bottom: 1rem;
 }
 .projectLink{
-    filter: brightness(.5);
+    filter: brightness(1);
     margin-top: 1rem;
 }
 .projectLink:hover{
-    filter:brightness(1.2);
+    opacity: .5;
     border-radius: 8px;
     transform: .5s;
     cursor: pointer;
 }
 .projectContainer > .image{
-    width: 10rem;
+    width: 15rem;
     margin-top: 2rem;
     
 }
@@ -50,7 +51,7 @@
 
 .footerText{
     position: absolute;
-    bottom: .5rem;
+    bottom: 1rem;
     right: 1rem;
     color: var(--background);
     font-size: .8rem;

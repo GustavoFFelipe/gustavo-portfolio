@@ -13,6 +13,5 @@ export function Banner(){
             </div>
             <span className={style.borderDivision} ></span>
         </article>
-         
     )
 }
