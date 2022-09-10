@@ -2,6 +2,7 @@ import {GithubLogo, FacebookLogo, InstagramLogo, LinkedinLogo} from 'phosphor-re
 import lineLarge from '../assets/line-large.svg'
 import lineSmall from '../assets/line-small.svg'
 import style from './Sidebar.module.css'
+
 export function Sidebar(){
     return(
         <aside>

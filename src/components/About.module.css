@@ -1,0 +1,27 @@
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    width: 60rem;
+    margin: 2rem auto;
+    border-top: 2px solid var(--blue-text);
+    border-radius: 2px;
+    padding-top: 3rem;
+}
+.aboutContainer h3{
+    margin-bottom: 1rem;
+    color: var(--blue-text);
+    font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.6rem;
+    letter-spacing: 0.2rem;
+}
+
+.aboutText{
+    color: var(--black-text);
+    width:60rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: 'Bebas Neue';
+    line-height: 1.6;
+    margin-bottom: 3rem;
+}

@@ -1,0 +1,74 @@
+.footerContainer{
+    width: 72rem;
+    padding-top: 2rem;;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 250px 1fr;
+    height: 15rem;
+    position: relative;
+    border-top: 2px solid var(--blue-text);
+    border-radius: 2px;
+}
+.footerLinks{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.footerLinks a{
+    text-decoration: none;
+    color: var(--blue-text);
+    line-height: 1.2;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family:'Bebas Neue', sans-serif;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    margin: .5rem auto;
+}
+.footerLinks a:hover{
+    filter: opacity(.8);
+    transition:.2s; 
+}
+.copy{
+    position: absolute;
+    bottom:.5rem;
+    color: var(--blue-text);
+    font-size: .875rem;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    margin: auto 2rem;
+    text-align: top;
+    margin: auto;
+    font-size: 1.2rem;
+    color: var(--blue-text);
+    letter-spacing: .1rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.buttonPopForm{
+    background-color: transparent;
+    margin-top: 1rem;
+font-family: 'Bebas Neue', sans-serif;
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+
+    letter-spacing: .2rem;
+    line-height: 1.2;
+
+    border: 0;
+    border-bottom: 1px solid var(--black-text)
+}
+.buttonPopForm:hover {
+    transition: filter 2s;
+    color: var(--blue-text);
+    border: 1px solid var(--blue-text);
+    box-shadow: 2px 4px var(--black-text);
+    filter: brightness(1.9);
+    cursor: pointer;
+
+}
