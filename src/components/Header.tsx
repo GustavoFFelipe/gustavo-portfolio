@@ -10,7 +10,7 @@ export function Header(){
                 <a href="#home">Home</a>
                 <a href="#projects">Projetos</a>
                 <a href="#about">Sobre mim</a>
-                <a href="#footer">Contato</a>
+                <a href="#contact">Contato</a>
             </nav>
         </header>
     )

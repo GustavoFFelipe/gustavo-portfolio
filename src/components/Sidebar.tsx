@@ -10,10 +10,10 @@ export function Sidebar(){
                 <img src={lineSmall} alt="" />
             </div>
             <div className={style.midia}>
-                <a className={style.github} href="#"><GithubLogo size={26}  /></a>
-                <a className={style.facebook} href="#"><FacebookLogo size={26}/></a>
-                <a className={style.instagram} href="#"><InstagramLogo size={26} /></a>
-                <a className={style.linkedin} href="#"><LinkedinLogo size={26} /></a>
+                <a className={style.github} href="https://github.com/GustavoFFelipe"><GithubLogo size={26}  /></a>
+                <a className={style.facebook} href="https://www.facebook.com/gu.ffelipe19"><FacebookLogo size={26}/></a>
+                <a className={style.instagram} href="https://www.instagram.com/gu.ffelipe/"><InstagramLogo size={26} /></a>
+                <a className={style.linkedin} href="https://www.linkedin.com/in/gustavoffelipe/"><LinkedinLogo size={26} /></a>
             </div>
             <div className={style.lineLarge}>
                 <img src={lineLarge} />
