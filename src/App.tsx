@@ -8,6 +8,8 @@ import style from './App.module.css'
 import { Projetcs } from './components/Projects'
 import { About } from './components/About'
 import { Footer } from './components/Footer'
+import { FormPopUp } from './components/FormPopUp'
+import { useState } from 'react'
 
 const project = [ 
   {
@@ -52,7 +54,6 @@ id: 4,
 
 function App() {
 
-
   return (
     <div className="App">
       <Header />
@@ -72,7 +73,9 @@ function App() {
       </article>
       <div className={style.about}>
               <About />
+              <FormPopUp />
               <Footer />
+              
       </div>
     </div>
   )

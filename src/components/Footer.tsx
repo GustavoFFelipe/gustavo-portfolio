@@ -1,10 +1,13 @@
 import style from './Footer.module.css'
-import {WhatsappLogo} from 'phosphor-react'
+import { useState } from 'react';
+import { FormPopUp } from './FormPopUp';
 
 export function Footer(){
+    const [openModal, setOpenModal] = useState(false);
+
     return (
         <footer className={style.footerContainer}>
-            <div className={style.footerLinks} id="contact">
+            <div className={style.footerLinks}>
                 <a href="#home">Home</a>
                 <a href="#projects">Projetos</a>
                 <a href="#about">Sobre mim</a>
@@ -17,7 +20,10 @@ export function Footer(){
                 <span className={style.number}>
                     +55 (32) 9 9853-8036
                     </span>
-                <button className={style.buttonPopForm}>Vamos nessa juntos.</button>
+                <a href="#contact">
+                <button className={style.buttonPopForm}>
+                    Vamos nessa juntos.
+                </button></a>
             </div>
 
         </footer>

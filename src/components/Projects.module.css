@@ -59,4 +59,10 @@
     margin-top: 2rem;
     border-bottom: 1px solid var(--background);
 }
+@media (max-width: 768px){
+    .projectLink{
+        display: flex;
+        flex-direction: column;
 
+    }
+}
