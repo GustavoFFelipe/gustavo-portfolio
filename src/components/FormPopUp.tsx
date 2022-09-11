@@ -19,7 +19,7 @@ export function FormPopUp(){
                 <textarea name="message" className={style.message} placeholder="Sua Mensagem" />
 
                 <input type="hidden" name="_autoresponse" value="Obrigado por me mandar uma mensagem, em breve vou entrar em contato com você. Gustavo Felipe"></input>
-                <input type="button" className={style.button} value="ENVIAR" />
+                <input type="submit" className={style.button} value="ENVIAR" />
 
             </form>
         </div>

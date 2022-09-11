@@ -9,14 +9,14 @@ import { Projetcs } from './components/Projects'
 import { About } from './components/About'
 import { Footer } from './components/Footer'
 import { FormPopUp } from './components/FormPopUp'
-import { useState } from 'react'
+import './assets/coffee.png'
 
 const project = [ 
   {
     id: 1,
     projectData: {
       urlLink: 'https://coffeelandhishere.netlify.app/',
-      imgUrl: 'https://lh3.googleusercontent.com/KPQNovTjJeoLNP8VXdWE4TAQbNf3JZ3nV8HT-3TUcviv7Mozqa6cjag6LDIt6XTQA4ecsVvVjfFFyMOtNDFSEBNO1lZNvSeyMlY7_3LuAVAyF_OAcfJu3lLDZSoQFXCJLrBpgtOG7hqy28oG7Agsor647a1ROIwoMMyeP_pgzLzZP8P_h1OKIMZ8AHcgHYaX_KnymZhA0EqUX7PuFdXMpg_OND2PhP5JXjkwmdGxaS8EB_fTjrq2uYaRg5HlcdLRcUKYwjwg1H41bl7X3RXzwOr0RAFyZwxig5dHi6M_ZvS2CTHDplofOznFjRyJeVGkaXGMP8f2AVLER2FgMhcYxKDMd9DWpEblCpYTGZlby8f6jRJ_zwmHi_TOg_qffbHQhN2x5nVvm362VwIAptdhb89Ud6yFYD5vR0OIKPww3e5Z1DzlRkggbKV4iiF0QkdXyZkgt16ta8Z5pjYCpUgV4MaSdYaLa9E24AeO4_TWj2mtXCpc-FTy94CEMggioJmyh1svSrg0I17coA7g_3OjQVnDVT0FHe26BzJY_uldaEX_dp44D6Zo_vsDJZG8zozDDroiM92sknaNg09nK7NUi7OSRgy2Dfo5hrOpiYLdz5ufcYn5wjGvfX8UH5QCZvIYLKLrWm99eJntxi48jGSqgBVjwFVMlZO3UPxGj4Vl5_tqDYI8Ugy4j9S3GkJQyW8vt4PhY954aMKFM786Ex_wvPSF5ZfC-32Yim_9I078plz0qEQrAm6xqKfcYtr6Aj2J99AItpdHoPL6PhIeWGcmSW4Zs2cRf1V4LPU=w1080-h615-no?authuser=0',
+      imgUrl: './assets/coffee.png',
       title: 'Coffeland é o mais novo modo de comprar café.',
       footer: 'Study-Case'
     }
