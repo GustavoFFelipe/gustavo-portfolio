@@ -2,6 +2,7 @@
 import style from './Projects.module.css'
 
 interface Project {
+    id: number;
     urlLink: string
     imgUrl: string;
     title: string;

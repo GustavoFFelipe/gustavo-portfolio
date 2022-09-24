@@ -1,3 +1,8 @@
+.mainBody{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 .mainContent{
     display: grid;
     grid-template-columns: 50px 1fr;
@@ -6,20 +11,21 @@
 }
 
 .wrapper{
+    max-width: 1280px;
     width: 60rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:1fr 1fr;
     gap: 2rem;
     justify-content: center;
     align-items: center;
-    margin-left: 8rem;
+    margin: 0 8rem 0 8rem;
 }
-.wrapper .about{
-    width: 60rem;
+.wrapper .about {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 @media (max-width: 768px){
@@ -29,5 +35,14 @@
     #app{
         display: grid;
         grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 930px){
+    .wrapper .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
     }
 }

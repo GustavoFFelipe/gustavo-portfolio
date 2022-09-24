@@ -25,3 +25,9 @@
     line-height: 1.6;
     margin-bottom: 3rem;
 }
+
+@media (max-width:1170px){
+    .aboutContainer{
+    width: 50rem;
+    }
+}
