@@ -1,10 +1,12 @@
 .header {
     max-width: 1280px;
     display: flex;
+    height: 3rem;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
     position: relative;
+    margin: 0 auto;
 }
 .header > img{
     width: 30px;
@@ -37,4 +39,18 @@
 }
 .navLinks a:last-child {
     margin-right: 1rem;
+}
+@media (max-width: 1024px){
+    .header{
+        max-width: 900px;
+    }
+    .navLinks a {
+        margin: 0 .875rem;
+    }
+}
+@media (max-width: 768px){
+    .header{
+        margin: 0 5rem;
+        width: 48rem;
+    }
 }

@@ -26,6 +26,7 @@
 .form > h1{
     display: flex;
     justify-content: center;
+    padding: .5rem;
     margin: 0 auto;
     font-size: 1.5rem;
     font-weight: bold;
@@ -40,9 +41,11 @@
     align-items: flex-start;
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: .2rem;
-    line-height: 1.6;;
+    line-height: 1.6;
+    padding: .0rem;
     width: 100%;
     margin: .5rem 0;
+    text-decoration:none;
 }
 .form > label{
     width: 90%;
@@ -89,4 +92,19 @@
     border:1px solid var(--blue-text);
     cursor: pointer;
     transition: .2s;
+}
+
+@media (max-width: 1024px) {
+    .formPopUp{
+        height: 100vh;
+        width: 40rem;
+    }
+    .formPopUp .form{
+        width: 30rem;
+    }
+}
+@media (max-width: 768px){
+    .formPopUp{
+        margin: 2rem 13rem;
+    }
 }

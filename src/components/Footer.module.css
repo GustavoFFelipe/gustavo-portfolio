@@ -52,7 +52,7 @@
 .buttonPopForm{
     background-color: transparent;
     margin-top: 1rem;
-font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     padding: .5rem 1.5rem;
     font-size: 1rem;
     font-weight: 700;
@@ -70,5 +70,29 @@ font-family: 'Bebas Neue', sans-serif;
     box-shadow: 2px 4px var(--black-text);
     filter: brightness(1.9);
     cursor: pointer;
+
+}
+@media (max-width: 1024px){
+    .footerContainer{
+        width: 900px;
+        margin: 0 auto;
+        grid-template-columns: 300px 300px 300px; 
+    }
+    .footerLinks a{
+        font-size: .875rem;
+        letter-spacing: .1rem;
+    }
+    .buttonPopForm{
+        font-size: .875rem;
+        letter-spacing: .1rem;
+    }
+    .contact{
+        margin: 0;
+    }
+    .copy{
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
+    }
 
 }

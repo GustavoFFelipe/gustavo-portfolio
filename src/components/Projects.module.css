@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 8px;
+    margin: 0 auto;
     margin-bottom: 1rem;
 }
 .projectLink{
@@ -58,6 +59,29 @@
     opacity: .7;
     margin-top: 2rem;
     border-bottom: 1px solid var(--background);
+}
+
+@media (max-width:1024px){
+    .projectLink article{
+        margin-right: .1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    .projectContainer{
+        width: 20rem;
+        height: 20rem;
+        display:flex;
+        flex-direction: column;
+        background: var(--blue-text);
+        padding: 2rem 2rem;
+    }
+
+    .projectContainer > .image{
+        width: 10rem;
+        margin-top: 2rem;
+        
+    }
 }
 @media (max-width: 768px){
     .projectLink{

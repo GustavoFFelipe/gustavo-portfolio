@@ -14,7 +14,7 @@ export function Footer(){
                 <a href="#contact">Contato</a>
             </div>
             <div >
-                <span className={style.copy}>Todos os direitos reservados. 2022</span>
+                <p className={style.copy}>Todos os direitos reservados. 2022</p>
             </div>
             <div className={style.contact}>
                 <span className={style.number}>

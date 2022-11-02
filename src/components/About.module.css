@@ -26,8 +26,17 @@
     margin-bottom: 3rem;
 }
 
-@media (max-width:1170px){
+@media (max-width:1024px){
     .aboutContainer{
-    width: 50rem;
+    width: 40rem;
+    }
+    .aboutText{
+        width: 38rem;
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 768px){
+    .aboutContainer{
+        margin: 2rem 13rem;
     }
 }
