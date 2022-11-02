@@ -24,3 +24,13 @@ body{
 
     
 }
+@media (max-width: 768px){
+    html{
+        overflow-x: hidden;
+    }
+}
+@media (min-width: 425px){
+    html{
+        overflow-x: hidden;
+    }
+}

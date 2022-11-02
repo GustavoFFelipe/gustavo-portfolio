@@ -120,4 +120,7 @@ html {
     .perfil{
         display: none;
     }
+    .borderDivision{
+        display: none;
+    }
 }
