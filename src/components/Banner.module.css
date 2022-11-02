@@ -105,6 +105,19 @@ html {
 }
 .perfil {
     width: 23rem;
-    margin-left: 11.75rem;
+    margin: 0 1rem 0 3rem;
 }
+}
+@media (max-width: 425px){
+    .wrapper{
+        grid-template-columns: 1fr;
+    }
+    .bannerText{
+        margin: 2rem 2rem 0 8rem;
+        width: 100%;
+
+    }
+    .perfil{
+        display: none;
+    }
 }

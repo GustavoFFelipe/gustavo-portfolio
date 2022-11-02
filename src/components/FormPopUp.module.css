@@ -105,6 +105,24 @@
 }
 @media (max-width: 768px){
     .formPopUp{
-        margin: 2rem 13rem;
+        margin: 2rem 8rem;
+    }
+}
+@media (max-width:425px){
+    .formPopUp{
+        height: 100vh;
+        width: 25rem;
+        font-size: .875rem;
+        margin-left: 2.5rem;
+    }
+    .formPopUp .form{
+        width: 25rem;
+    }
+    .form .button{
+    padding: .3rem 0;
+    font-size: .875rem;
+    }
+    .message{
+        padding: 1rem .5rem .5rem .5rem;
     }
 }

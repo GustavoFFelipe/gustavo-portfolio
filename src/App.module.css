@@ -54,6 +54,7 @@
     }
     .wrapper{
         grid-template-columns: 1fr 1fr;
+        margin: 1rem 7rem;
     }
     .wrapper .about {
         display: flex;
@@ -61,5 +62,12 @@
         justify-content: center;
         align-items: center;
         margin: 0 auto;
+    }
+}
+@media (max-width: 425px){
+    .wrapper{
+        grid-template-columns: 1fr;
+        margin: 2rem 2rem 0 3rem;
+
     }
 }

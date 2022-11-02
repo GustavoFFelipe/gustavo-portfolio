@@ -96,3 +96,19 @@
     }
 
 }
+@media (max-width: 768px) {
+    .footerContainer{
+        width: 768px;
+        grid-template-columns: 256px 256px 256px
+    }
+}
+@media (max-width: 425px){
+    .footerContainer{
+        width: 425px;
+        grid-template-columns: 1fr;
+    }
+    .buttonPopForm, .contact, .copy{
+
+    display: none;
+    }
+}
