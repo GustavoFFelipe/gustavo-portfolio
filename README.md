@@ -2,7 +2,7 @@
 
 # Portfólio
 
-URL: <a href="https://gustavofelipe.netlify.app/" >Veja mais aqui.</a>
+Site: <a href="https://gustavofelipe.netlify.app/" >Veja mais aqui.</a>
 
 O site foi construido em ReactJs e Typescript, utilizei também algumas libs como PhosporIcon e ViteJs com o intuito de aumentar a produtividade. As estilizações foram feitas usando module css para garantir que o estilos não se sobrepossem em outros componentes. Adicionei também tipagem estática para diminuir o risco de bugs e de conflito de tipos. 
 
