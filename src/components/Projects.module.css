@@ -1,6 +1,7 @@
 
 
 .projectContainer{
+    max-width: 64rem;
     height: 25rem;
     display:flex;
     flex-direction: column;

@@ -9,15 +9,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    text-decoration: none;
 }
 html{
     scroll-behavior: smooth;
-    width: 100vw;
 }
 body{
     background: var(--background);
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
@@ -26,18 +25,18 @@ body{
 }
 @media (max-width: 1024px){
     html{
-        max-width: 1024px;
+        font-size: 87.5%;
+
     }
 }
 @media (max-width: 768px){
     html{
-        max-width: 768px;
-        overflow-x: hidden;
+        font-size: 87.5%;
+
     }
 }
 @media (max-width: 425px){
     html{
-        max-width: 425px;
-        overflow-x: hidden;
+        font-size: 87.5%;
     }
 }

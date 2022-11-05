@@ -104,8 +104,10 @@
 }
 @media (max-width: 425px){
     .footerContainer{
-        width: 425px;
+        width: 90%;
+        margin: 0 auto;
         grid-template-columns: 1fr;
+
     }
     .buttonPopForm, .contact, .copy{
 

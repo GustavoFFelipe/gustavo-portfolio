@@ -1,17 +1,16 @@
 .wrapper {
-    max-width: 1280px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 7rem;
+    width: 64rem;
+    height: 100vh;
+    display: flex;
+    gap: 5rem;
     text-align: center;
-    justify-content: center;
-    position: relative;
-    margin: 0 auto;    
+    justify-content: space-between;
+    margin: 0 auto;   
+    position: relative; 
 }
 
 .perfil{
-    width: 30rem;
-    margin-left: 10rem;
+    width: 23rem;
 }
 
 .bannerText {
@@ -23,7 +22,7 @@
 
 }
 .bannerText > h2{
-    width: 22rem;
+    width: 20rem;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 4rem;
     font-weight: 700;
@@ -71,51 +70,48 @@
 }
 
 .borderDivision{
-    width: 60rem;
     position: absolute;
     bottom: 0;
-    left: 1rem;
+    left: 0rem;
+    right: 0rem;
     text-align: center;
     border-bottom: 2px solid var(--blue-text);
     border-radius: 2px;
 }
 
-@media (max-width: 1024px){
-    .perfil{
-        width: 23rem;
-        margin-left: 3rem;
-    }
-    .bannerText > h2{
-        font-size: 2.5rem;
-        width: 17rem;
-    }
 
-}
 
 @media (max-width: 768px) {
 html {
         font-size: 87.5%;
     }
-.wrapper{
-    grid-template-columns: 1fr 1fr;
-    
+.wrapper {
+    width:51rem;
 }
-.bannerText h2{
-    font-size: 3rem;
+
 }
-.perfil {
-    width: 23rem;
-    margin: 0 1rem 0 3rem;
-}
-}
-@media (max-width: 425px){
+@media (max-width: 450px){
+
+    html{
+        font-size: 87.5%;
+    }
     .wrapper{
         grid-template-columns: 1fr;
     }
     .bannerText{
-        margin: 2rem 2rem 0 8rem;
+        width: 100vw;
+        text-align: center;
+        align-items: center;
+    }
+    .bannerText h2{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .buttonPopForm {
         width: 100%;
-
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2rem;
     }
     .perfil{
         display: none;

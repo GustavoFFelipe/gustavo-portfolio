@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: column;
     width: 60rem;
-    margin: 2rem auto;
+    margin: 0 auto;
     border-top: 2px solid var(--blue-text);
     border-radius: 2px;
     padding-top: 3rem;
 }
 .aboutContainer h3{
+    text-align: start;
     margin-bottom: 1rem;
     color: var(--blue-text);
     font-weight: 700;
@@ -18,35 +19,41 @@
 
 .aboutText{
     color: var(--black-text);
-    width:60rem;
+    width:90%;
     font-size: 1.4rem;
     font-weight: 400;
     font-family: 'Bebas Neue';
     line-height: 1.6;
+    margin: 0 auto;
     margin-bottom: 3rem;
+    
 }
 
 @media (max-width:1024px){
-    .aboutContainer{
-    width: 40rem;
-    }
-    .aboutText{
-        width: 38rem;
-        font-size: 1.2rem;
+    html{
+        font-size: 87.5%;
     }
 }
 @media (max-width: 768px){
     .aboutContainer{
-        margin: 2rem 8rem;
+        width: 40rem;
     }
 }
+
 @media (max-width: 425px){
+    html{
+        font-size: 87.5%;
+    }
     .aboutContainer{
         width: 21rem;
-        margin-left: 5.5rem;
-        }
+    }
+    .aboutContainer h3{
+        font-size: 1rem;
+    }
     .aboutText{
-        width: 20rem;
+        width: 100%;
         font-size: .875rem;
     }
+
+
 }
