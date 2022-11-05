@@ -11,6 +11,7 @@
 
 .perfil{
     width: 23rem;
+    max-width: 400px;
 }
 
 .bannerText {
